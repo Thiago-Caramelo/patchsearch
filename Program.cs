@@ -17,7 +17,7 @@ namespace PatchSearch
             // obter todos os arquivos da pasta
             string[] files = Directory.GetFiles(Directory.GetCurrentDirectory());
 
-            foreach (var item in files)
+            foreach (var item in files) //teste
             {
                 using (StreamReader reader = new StreamReader(item))
                 {
