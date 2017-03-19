@@ -20,7 +20,7 @@ namespace PatchSearch
 
             foreach (var item in files) //teste
             {
-                using (StreamReader reader = new StreamReader(item))
+                using (StreamReader reader = new StreamReader(item)) // teste f
                 {
                     string fileContent = reader.ReadToEnd();
 
