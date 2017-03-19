@@ -26,7 +26,7 @@ namespace PatchSearch
 
                     int qt = 0;//teste 7
 
-                    foreach (var term in args)
+                    foreach (var term in args) // teste 745
                     {
                         if (fileContent.Contains(term))
                         {
