@@ -34,7 +34,7 @@ namespace PatchSearch
                         }
                     }
 
-                    if (qt == args.Length)
+                    if (qt == args.Length) // teste 456
                     {
                         Console.WriteLine(Path.GetFileName(item));
                     }
