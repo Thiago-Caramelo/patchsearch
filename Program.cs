@@ -22,7 +22,7 @@ namespace PatchSearch
             {
                 using (StreamReader reader = new StreamReader(item)) // teste f
                 {
-                    string fileContent = reader.ReadToEnd();
+                    string fileContent = reader.ReadToEnd(); // teste 456
 
                     int qt = 0;//teste 7
 
