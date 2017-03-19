@@ -5,6 +5,7 @@ using System.Text;
 
 namespace PatchSearch
 {
+// teste
     class Program
     {
         static void Main(string[] args)
