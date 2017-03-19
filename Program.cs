@@ -24,7 +24,7 @@ namespace PatchSearch
                 {
                     string fileContent = reader.ReadToEnd();
 
-                    int qt = 0;
+                    int qt = 0;//teste 7
 
                     foreach (var term in args)
                     {
